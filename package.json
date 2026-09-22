@@ -1,0 +1,12 @@
+{
+  "name": "diario",
+  "version": "1.0.0",
+  "description": "Um log append-only com CRC32, compactacao e recuperacao de queda no meio da escrita. Zero dependencias.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "diario": "src/cli.js" },
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test testes/*.test.js" },
+  "keywords": ["append-only", "wal", "crc32", "durabilidade"],
+  "license": "MIT"
+}
